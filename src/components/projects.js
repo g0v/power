@@ -66,7 +66,7 @@ var projectListData = [
     "idea": "國家寶藏團隊找來設計師、工程師，開發翻拍檔案 APP，讓志工像玩遊戲一般，自動指派翻拍編號，一小時可處理 100～200 頁的文件。翻拍後的檔案會自動上傳資料庫，並且透過程式辨識圖片中的文字，數位化成為可搜尋的資料，現在還能將英文自動翻譯成中文，更方便台灣民眾查閱。",
     "impact": "這是一個極具野心的計畫，他們不只想挖美國國家檔案局的檔案，期望同樣的鄉民精神與科技工具可以讓世界各地的台灣人都可以自己挖寶。畢竟大英博物館、荷蘭東印度公司、俄國聖彼得堡、日本、澳洲等地都有大量關於台灣的文獻尚未被研究。目前團隊已在美國成立「臺灣國家寶藏基金會」，每月組織志工團到馬里蘭進行翻拍，累積超過 100,000 筆資料上網。",
     "team": "團隊介紹",
-    "create": [{"title":"志工人次", "num":50}, {"title":"翻拍文件", "num":100000}],
+    "create": [{"title":"志工人次", "num":50}, {"title":"翻拍文件", "num":200000}],
     "people":"蕭新晟（hsiao-a）／林育正（小風）／莊士杰（Abraham）／張文馨（moon）"
   }
 ]
@@ -104,7 +104,7 @@ class Projects extends Component {
         )
       case "1":
         return (
-          <p><FontAwesome className="pr2" name='envelope'/>Email: cofacts@googlegroups.com<br/><FontAwesome className="pr2" name='slack'/>g0v slack #cofacts<br/><FontAwesome className="pr2" name='facebook-square'/>Facebook: <a href="https://www.facebook.com/groups/cofacts" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/cofacts</a></p>
+          <p><FontAwesome className="pr2" name='envelope'/>Email: cofacts@googlegroups.com<br/><FontAwesome className="pr2" name='slack'/>g0v slack #cofacts<br/><FontAwesome className="pr2" name='facebook-square'/>Facebook: <a href="https://www.facebook.com/cofacts.tw/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/cofacts.tw/</a></p>
         )
       case "2":
         return (

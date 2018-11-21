@@ -24,6 +24,11 @@ var topicListData = [
         "name": "享食雲 Foodsharing Taiwan",
         "url": "https://foodsharing.tw",
         "logo": "images/logos/logo1-2.png"
+      },
+      {
+        "name": "無家者小幫手 Homeless Helper",
+        "url": "https://homeless-helper.doyouaflavor.tw/",
+        "logo": "images/logos/logo1-3.png"
       }
     ]
   },
@@ -44,9 +49,19 @@ var topicListData = [
         "logo": "images/logos/logo2-2.png"
       },
       {
-        "name": "2018 議員投票指南",
+        "name": "投票指南 Councillor Voter Guide",
         "url": "https://councils.g0v.tw",
         "logo": "images/logos/logo2-3.png"
+      },
+      {
+        "name": "台灣路更平 Flataiwan",
+        "url": "https://flataiwan.com",
+        "logo": "images/logos/logo2-4.jpg"
+      },
+      {
+        "name": "台電睦鄰金流大解析 Opentaipower",
+        "url": "https://opentaipower.g0v.tw/",
+        "logo": "images/logos/logo2-5.png"
       }
     ]
   },
@@ -75,6 +90,16 @@ var topicListData = [
         "name": "國家寶藏",
         "url": "https://nationaltreasure.tw",
         "logo": "images/logos/logo3-4.png"
+      },
+      {
+        "name": "智慧辨識花卉圖鑑 AiR",
+        "url": "https://plant-tw.github.io",
+        "logo": "images/logos/logo3-5.png"
+      },
+      {
+        "name": "找台語 ChhoeTaigi",
+        "url": "https://chhoe.taigi.info/",
+        "logo": "images/logos/logo3-6.png"
       }
     ]
   },
@@ -93,6 +118,11 @@ var topicListData = [
         "name": "好工作評論網 GoodJob",
         "url": "https://www.goodjob.life/",
         "logo": "images/logos/logo4-2.png"
+      },
+      {
+        "name": "班表小幫手 Labor Helper",
+        "url": "https://tw-shift-schedule.firebaseapp.com/",
+        "logo": "images/logos/logo4-3.png"
       }
     ]
   },
@@ -127,6 +157,7 @@ class Topics extends Component {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
       spaceBetween: 100,
+      autoHeight: true,
       onSlideChangeStart: function(){
         $('.show2').addClass('none');
       },

@@ -35,7 +35,7 @@ class Intro extends Component {
           <ul className="ma0 pa0 tc">
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="29"
+              <AnimatedNumber component="text" value="33"
                 stepPrecision = {0}
                 duration={650} />
               </h1><span>{section.number1[1]}</span>

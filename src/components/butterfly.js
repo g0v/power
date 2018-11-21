@@ -13,14 +13,14 @@ var section =
   "tagline": "蝴蝶效應（Butterfly effect），指一個微小的變化，就能帶動整個系統的巨大連鎖反應。",
   "intro": "我們是 g0v，一直相信，每一個公民科技好點子背後的創意與力量，都像是一隻輕拍翅膀的蝴蝶，若能導入持續開發、長期營運的人力與資源，就能引發蝴蝶效應，產生足以扭轉未來的成果。",
   "contentTitle": "什麼是「公民科技創新獎助金」？",
-  "content": "為鼓勵更多優秀人才投入公民科技領域、加速孵化更多成果，g0v 向國內外各大具社會影響力之媒體、科技產業、非政府組織募集「公民科技創新獎助金」，並從 g0v 零時政府揪松團設計一套參與、評選機制，來獎助具潛力且有助公共利益的專案，投入原型開發或維護營運。希望在黑客松的形式之外，促使更多公民科技專案成果能真正產生影響力，創造蝴蝶效應，並延伸出更多可能。",
+  "content": "為鼓勵更多優秀的人才投入新型態民主實驗場、加速孵化更多成果產出，固定舉辦大松的 g0v 零時政府揪松團除了持續雙月黑客松活動，亦號召國內外各大具社會影響力之媒體、科技產業募集「公民科技創新獎助金」，並設計參與評選機制，獎助具有潛力且有助公共利益的專案，投入原型開發或維護營運。",
   "number1": ["累積總提案", "件"],
   "number2": ["已獲獎專案", "件"],
   "number3": ["媒體報導", "篇"],
   "number4": ["已發放獎金", "萬元"],
   "imageTitle": "創意、公民科技人才",
   "link": "瀏覽獎助金官方網站",
-  "note": "*此數字統計截止至 2018 年 1 月份。"
+  "note": "*此數字統計截止至 2018 年 10 月份。"
 }
 
 class Butterfly extends Component {
@@ -39,7 +39,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc tracked f5-ns f6">{section.number1[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="151"
+          <AnimatedNumber component="text" value="184"
             stepPrecision = {0}
             duration={950} />
           </h1><span>{section.number1[1]}</span>
@@ -47,7 +47,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc tracked f5-ns f6">{section.number2[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="13"
+          <AnimatedNumber component="text" value="19"
             stepPrecision = {0}
             duration={1250} />
           </h1><span>{section.number2[1]}</span>
@@ -55,7 +55,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc tracked f5-ns f6">{section.number3[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="30"
+          <AnimatedNumber component="text" value="50"
             stepPrecision = {0}
             duration={1550} />
           +</h1><span>{section.number3[1]}</span>
@@ -63,7 +63,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc tracked f5-ns f6">{section.number4[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="591"
+          <AnimatedNumber component="text" value="881"
             stepPrecision = {0}
             duration={1850} />
           </h1><span>{section.number4[1]}</span>

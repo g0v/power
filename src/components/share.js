@@ -25,9 +25,9 @@ var shareListData = [
   },
   {
     "name": "下載最新年鑑",
-    "description": "最新 2017 獎助金年鑑，歡迎取用！",
+    "description": "最新 2018 獎助金年鑑，歡迎取用！",
     "action": "馬上下載",
-    "url": "https://drive.google.com/open?id=1tBuYwplYMya1EiGXJcUIoOPf6q83ULNS"
+    "url": "https://drive.google.com/file/d/1mV89GPIm7wSNci1gkeF_idy1odS4E5UD/view?usp=sharing"
   }
 ]
 

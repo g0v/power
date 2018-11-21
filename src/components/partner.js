@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 var section =
 {
-  "title": "2017 獎助金合作夥伴",
+  "title": "獎助金合作夥伴",
   "powerby": "揪松團在獎助金網站介紹徵件辦法、合作夥伴與獲獎專案一覽，獲獎專案網站或其他形式服務須至少在持續營運一年內註明 Powered by g0v，並連結回「Powered by g0v」頁面。"
 }
 

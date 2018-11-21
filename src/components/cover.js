@@ -33,7 +33,7 @@ class Cover extends Component {
           <div className="container mw9 w-85 center relative z1">
             <div className="pv6-ns pv4 pb6">
               <img src="images/powered-by-g0v.svg" height="60" alt="butterfly-logo"/>
-              <h1 className="f1-ns f2 white fw3 mt2 mb0">Report of g0v <br/>Civic Tech <br/> Prototype Grant<br/></h1>
+              <h1 className="f1-ns f2 white fw3 mt2 mb0">Civic Tech <br/> Prototype Grant<br/>Final Report<br/></h1>
               <h2 className="f2-ns f3 near-white mt2 mb3 fw5 tracked">{title[0]}<br/>{title[1]}</h2>
             </div>
           </div>
