@@ -13,14 +13,14 @@ var section =
   "intro2": "Why have we set up the g0v \"Civic Tech Prototype Grant\"?",
   "intro3": "For no other reason than to support the advancement of civic tech projects, and to be a generative force that will trigger positive butterfly effects.",
   "contentTitle": "What is the \"g0v Civic Tech Prototype Grant\"?",
-  "content": "In order to encourage more talented individuals and teams to join the civic tech community and to accelerate the incubation phase of projects, g0v has raised funds from influential media groups, IT firms, and NGOs to create the \"g0v Civic Tech Prototype Grant.\" Based on a participation and public appraisal system, g0v's Jothon Project Team awards the grant to projects that have great potential and communal benefit. We hope that through civic tech hackathons, we can compel more projects to produce influence, create a butterfly effect, and extend out more possibilities.",
+  "content": "The grant aims to encourage talented individuals and teams to join the civic tech community and to accelerate the incubation phase of projects. Hosted by g0v Hackathon Organizer Team, the funding of \"g0v Civic Tech Prototype Grant\" is raised from influential media groups, IT firms, and NGOs. The grant awardees are selected based on their projects’ potentials and communal benefits through an open proposal process. Along with the g0v hackathons, g0v Grant hopes to further support projects capable of producing influences, butterfly effects and new possibilities.",
   "number1": ["Proposals", ""],
   "number2": ["Grantee", ""],
   "number3": ["Media Exposure", ""],
   "number4": ["Funds for Grantee", "M TWD"],
   "imageTitle": "Civic Technology Talents",
   "link": "The Grant Website",
-  "note": "*Statistics by January 2018."
+  "note": "*Statistics by October 2018."
 }
 
 class Butterfly extends Component {
@@ -39,7 +39,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6">{section.number1[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="151"
+          <AnimatedNumber component="text" value="184"
             stepPrecision = {0}
             duration={950} />
           </h1><span>{section.number1[1]}</span>
@@ -47,7 +47,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6">{section.number2[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="13"
+          <AnimatedNumber component="text" value="19"
             stepPrecision = {0}
             duration={1250} />
           </h1><span>{section.number2[1]}</span>
@@ -55,7 +55,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6 ph3 ph1-ns">{section.number3[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="30"
+          <AnimatedNumber component="text" value="50"
             stepPrecision = {0}
             duration={1550} />
           +</h1><span>{section.number3[1]}</span>
@@ -63,7 +63,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6 ph3 ph1-ns">{section.number4[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="591"
+          <AnimatedNumber component="text" value="881"
             stepPrecision = {0}
             duration={1850} />
           </h1><span>{section.number4[1]}</span>

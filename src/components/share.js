@@ -27,9 +27,9 @@ var shareListData = [
   },
   {
     "name": "The Newest Annual Report",
-    "description": "The 2017 Annual Report to know stories.",
+    "description": "The 2018 Annual Report to know stories.",
     "action": "Download Now",
-    "url": "https://drive.google.com/open?id=1tBuYwplYMya1EiGXJcUIoOPf6q83ULNS",
+    "url": "https://drive.google.com/file/d/1mV89GPIm7wSNci1gkeF_idy1odS4E5UD/view?usp=sharing",
     "img": "下載最新年鑑"
   }
 ]

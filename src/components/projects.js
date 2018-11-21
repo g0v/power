@@ -66,7 +66,7 @@ var projectListData = [
     "idea": "The Taiwan National Treasure Team calls on designers and engineers to help develop an app that can digitize archive material. The app can automatically assign numbers to volunteers and process 100 to 200 pages of archives in an hour. These digitized archives will be uploaded to the database, and the text in the image will be identified by the program and become searchable data. Meanwhile, the English text can be translated into Chinese, making it easier for the people in Taiwan to read.",
     "impact": "This is an ambitious project. They do not only want to dig up the archives of the US National Archives, but also hope that netizens’ spirit and technological tools will allow Taiwanese people around the world to dig through these treasures. After all, the British Museum, the Dutch East India Company of the Netherlands, Russia, Japan, and Australia all have a lot of archives about Taiwan that has not been studied. At present, the team has established the \"Taiwan National Treasure Foundation\" in the United States, and organizes volunteers to digitize archives in Maryland each month, accumulating more than 100,000 archives online.",
     "team": "團隊介紹",
-    "create": [{"title":"Volunteers", "num":50}, {"title":"Digitize archives", "num":100000}],
+    "create": [{"title":"Volunteers", "num":50}, {"title":"Digitize archives", "num":200000}],
     "people":"蕭新晟（hsiao-a）／林育正（小風）／莊士杰（Abraham）／張文馨（moon）"
   }
 ]
@@ -104,7 +104,7 @@ class Projects extends Component {
         )
       case "1":
         return (
-          <p><FontAwesome className="pr2" name='envelope'/>Email: cofacts@googlegroups.com<br/><FontAwesome className="pr2" name='slack'/>g0v slack #cofacts<br/><FontAwesome className="pr2" name='facebook-square'/>Facebook: <a href="https://www.facebook.com/groups/cofacts" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/cofacts</a></p>
+          <p><FontAwesome className="pr2" name='envelope'/>Email: cofacts@googlegroups.com<br/><FontAwesome className="pr2" name='slack'/>g0v slack #cofacts<br/><FontAwesome className="pr2" name='facebook-square'/>Facebook: <a href="https://www.facebook.com/cofacts.tw" target="_blank" rel="noopener noreferrer">https://www.facebook.com/cofacts.tw</a></p>
         )
       case "2":
         return (

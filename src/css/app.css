@@ -22,6 +22,9 @@ section {
 img {
 	vertical-align: bottom;
 }
+div {
+	-webkit-overflow-scrolling: touch;
+}
 
 /*Typography*/
 h1 {

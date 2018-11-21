@@ -24,6 +24,11 @@ var topicListData = [
         "name": "Foodsharing Taiwan",
         "url": "https://foodsharing.tw",
         "logo": "images/logos/logo1-2.png"
+      },
+      {
+        "name": "Homeless Helper",
+        "url": "https://homeless-helper.doyouaflavor.tw/",
+        "logo": "images/logos/logo1-3.png"
       }
     ]
   },
@@ -47,6 +52,16 @@ var topicListData = [
         "name": "Councillor Voter Guide",
         "url": "https://councils.g0v.tw",
         "logo": "images/logos/logo2-3.png"
+      },
+      {
+        "name": "Flataiwan",
+        "url": "https://flataiwan.com",
+        "logo": "images/logos/logo2-4.jpg"
+      },
+      {
+        "name": "Opentaipower",
+        "url": "https://opentaipower.g0v.tw/",
+        "logo": "images/logos/logo2-5.png"
       }
     ]
   },
@@ -75,6 +90,16 @@ var topicListData = [
         "name": "Taiwan National Treasures",
         "url": "https://nationaltreasure.tw",
         "logo": "images/logos/logo3-4.png"
+      },
+      {
+        "name": "AiR",
+        "url": "https://plant-tw.github.io",
+        "logo": "images/logos/logo3-5.png"
+      },
+      {
+        "name": "ChhoeTaigi",
+        "url": "https://chhoe.taigi.info/",
+        "logo": "images/logos/logo3-6.png"
       }
     ]
   },
@@ -93,6 +118,11 @@ var topicListData = [
         "name": "GoodJob",
         "url": "https://www.goodjob.life/",
         "logo": "images/logos/logo4-2.png"
+      },
+      {
+        "name": "Labor Helper",
+        "url": "https://tw-shift-schedule.firebaseapp.com/",
+        "logo": "images/logos/logo4-3.png"
       }
     ]
   },
@@ -127,6 +157,7 @@ class Topics extends Component {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
       spaceBetween: 100,
+      autoHeight: true,
       onSlideChangeStart: function(){
         $('.show2').addClass('none');
       },
