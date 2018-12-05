@@ -7,7 +7,7 @@ var modalId = "";
 
 var section =
 {
-  "title": "Featured 2017 Grantees",
+  "title": "Featured Grantees",
   "tagline": "Since 2017, g0v Civic Tech Prototype Grant has gradually brought in substantial resources to allow 13 winning teams and projects to continue their operation. These outstanding projects have successfully created changes!" ,
   "insight": "Insight",
   "idea": "Idea",

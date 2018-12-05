@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Tooltip from 'rc-tooltip'
 
 var section =
 {
@@ -36,19 +37,41 @@ var partnerListData = [
     "name": "Open Culture Foundation",
     "description": "OCF supports local communities in advocating for the use of open technologies in a broad range of sectors, including open source software, open hardware, and open data.",
     "image": ["images/partners/logo-ocf.svg"]
+  },
+  {
+    "name": "Chunghwa Telecom",
+    "description": "Chunghwa Telecom is the largest telecommunications company in Taiwan and the incumbent mobile, PSTN and broadband carrier there.",
+    "image": ["images/partners/logo-cht.png"]
+  },
+  {
+    "name": "AppWorks",
+    "description": "Started in 2010, AppWorks Accelerator is the turbo engine built for seed-stage startups and your connection to our network of 328 startups and 925 founders, the largest of its kind in Asia.",
+    "image": ["images/partners/logo-appworks.png"]
+  },
+  {
+    "name": "EasyCard Corp.",
+    "description": "The EasyCard Corporation was officially established in March 2000 and launched a contactless smartcard, they has extended its reach to island-wide public transit, moreover, to people by serving as a tool for small-value payments, as well as used at leisure facilities, hospitals, government agencies and library self-checkout kiosks.",
+    "image": ["images/partners/logo-easycard.png"]
   }
 ]
 
 class Partner extends Component {
   partner = (i) => {
+    var ratio = {
+      objectFit: "contain"
+    }
     return (
       <div className="fl partners ma3 bg-white hidediv hideme br1">
         <div className="pa4">
-          <figure className="center mb3 tc">
-            <img src={partnerListData[i].image[0]} height="100" alt={partnerListData[i].name} />
-          </figure>
-          <p className="tc ma0 o-90 pt3 fw6">{partnerListData[i].name}</p>
-          <p className="tl mw-320 center o-70 p-small ph2">{partnerListData[i].description}</p>
+          <Tooltip placement="bottom" mouseLeaveDelay={0} trigger={['hover']} overlay={<span><span class='fw7 f5 mv3'>{partnerListData[i].name}</span><br/>{partnerListData[i].description}</span>}>
+            <figure className="center mb3 tc">
+              <img src={partnerListData[i].image[0]} height="100" alt={partnerListData[i].name} style={ratio}/>
+            </figure>
+            {/*
+            <p className="tc ma0 o-90 pt3 fw6">{partnerListData[i].name}</p>
+            <p className="tl mw-320 center o-70 p-small ph2">{partnerListData[i].description}</p>
+            */}
+          </Tooltip>
         </div>
       </div>
     )

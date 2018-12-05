@@ -18,17 +18,20 @@ var topicListData = [
       {
         "name": "LostSAR Search & Rescue",
         "url": "https://lostsar.github.io/",
-        "logo": "images/logos/logo1-1.png"
+        "logo": "images/logos/logo1-1.png",
+        "year": "2017"
       },
       {
         "name": "Foodsharing Taiwan",
         "url": "https://foodsharing.tw",
-        "logo": "images/logos/logo1-2.png"
+        "logo": "images/logos/logo1-2.png",
+        "year": "2017"
       },
       {
         "name": "Homeless Helper",
         "url": "https://homeless-helper.doyouaflavor.tw/",
-        "logo": "images/logos/logo1-3.png"
+        "logo": "images/logos/logo1-3.png",
+        "year": "2018"
       }
     ]
   },
@@ -41,27 +44,32 @@ var topicListData = [
       {
         "name": "Open Corporate Groups",
         "url": "https://thaubing.gcaa.org.tw",
-        "logo": "images/logos/logo2-1.png"
+        "logo": "images/logos/logo2-1.png",
+        "year": "2017"
       },
       {
         "name": "Verdict Search",
         "url": "https://sunshine.jrf.org.tw/search",
-        "logo": "images/logos/logo2-2.png"
+        "logo": "images/logos/logo2-2.png",
+        "year": "2017"
       },
       {
         "name": "Councillor Voter Guide",
         "url": "https://councils.g0v.tw",
-        "logo": "images/logos/logo2-3.png"
+        "logo": "images/logos/logo2-3.png",
+        "year": "2017"
       },
       {
         "name": "Flataiwan",
         "url": "https://flataiwan.com",
-        "logo": "images/logos/logo2-4.jpg"
+        "logo": "images/logos/logo2-4.jpg",
+        "year": "2018"
       },
       {
         "name": "Opentaipower",
         "url": "https://opentaipower.g0v.tw/",
-        "logo": "images/logos/logo2-5.png"
+        "logo": "images/logos/logo2-5.png",
+        "year": "2018"
       }
     ]
   },
@@ -74,32 +82,38 @@ var topicListData = [
       {
         "name": "AgriWeather",
         "url": "https://github.com/Agriweather",
-        "logo": "images/logos/logo3-1.png"
+        "logo": "images/logos/logo3-1.png",
+        "year": "2017"
       },
       {
         "name": "AgriNote",
         "url": "http://agriweather.beehivedt.com/",
-        "logo": "images/logos/logo3-2.png"
+        "logo": "images/logos/logo3-2.png",
+        "year": "2017"
       },
       {
         "name": "Taiwan Watch: Taiwan Affairs in the US Congress",
         "url": "https://www.taiwanwatch.org",
-        "logo": "images/logos/logo3-3.png"
+        "logo": "images/logos/logo3-3.png",
+        "year": "2017"
       },
       {
         "name": "Taiwan National Treasures",
         "url": "https://nationaltreasure.tw",
-        "logo": "images/logos/logo3-4.png"
+        "logo": "images/logos/logo3-4.png",
+        "year": "2017"
       },
       {
         "name": "AiR",
         "url": "https://plant-tw.github.io",
-        "logo": "images/logos/logo3-5.png"
+        "logo": "images/logos/logo3-5.png",
+        "year": "2018"
       },
       {
         "name": "ChhoeTaigi",
         "url": "https://chhoe.taigi.info/",
-        "logo": "images/logos/logo3-6.png"
+        "logo": "images/logos/logo3-6.png",
+        "year": "2018"
       }
     ]
   },
@@ -112,17 +126,20 @@ var topicListData = [
       {
         "name": "COFACTS LINE BOT",
         "url": "https://cofacts.g0v.tw/",
-        "logo": "images/logos/logo4-1.png"
+        "logo": "images/logos/logo4-1.png",
+        "year": "2017"
       },
       {
         "name": "GoodJob",
         "url": "https://www.goodjob.life/",
-        "logo": "images/logos/logo4-2.png"
+        "logo": "images/logos/logo4-2.png",
+        "year": "2017"
       },
       {
         "name": "Labor Helper",
         "url": "https://tw-shift-schedule.firebaseapp.com/",
-        "logo": "images/logos/logo4-3.png"
+        "logo": "images/logos/logo4-3.png",
+        "year": "2018"
       }
     ]
   },
@@ -135,12 +152,14 @@ var topicListData = [
       {
         "name": "middle2",
         "url": "https://middle2.com/",
-        "logo": "images/logos/logo5-1.svg"
+        "logo": "images/logos/logo5-1.svg",
+        "year": "2017"
       },
       {
         "name": "YA0H: Yet Another g0v Hub",
         "url": "https://amb.g0v.tw",
-        "logo": "images/logos/logo5-2.svg"
+        "logo": "images/logos/logo5-2.svg",
+        "year": "2017"
       }
     ]
   }
@@ -177,7 +196,7 @@ class Topics extends Component {
           <a className="flexbox alc pa3-l pa1 bw1 br2 ba b--near-white near-black mv2 w-100 f4-l f5 lh-large" href={topicListData[i].projects[k].url} target="_blank">
             <img src={topicListData[i].projects[k].logo} height="75" alt="logo"/>
             <div className="pa3">
-              <h6 className="o-50 ma0 fw4 tiny">2017</h6>
+              <h6 className="o-50 ma0 fw4 tiny">{topicListData[i].projects[k].year}</h6>
               {topicListData[i].projects[k].name}
             </div>
           </a>
