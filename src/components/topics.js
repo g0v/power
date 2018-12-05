@@ -18,17 +18,20 @@ var topicListData = [
       {
         "name": "LostSAR - 搜救",
         "url": "https://lostsar.github.io/",
-        "logo": "images/logos/logo1-1.png"
+        "logo": "images/logos/logo1-1.png",
+        "year": "2017"
       },
       {
         "name": "享食雲 Foodsharing Taiwan",
         "url": "https://foodsharing.tw",
-        "logo": "images/logos/logo1-2.png"
+        "logo": "images/logos/logo1-2.png",
+        "year": "2017"
       },
       {
         "name": "無家者小幫手 Homeless Helper",
         "url": "https://homeless-helper.doyouaflavor.tw/",
-        "logo": "images/logos/logo1-3.png"
+        "logo": "images/logos/logo1-3.png",
+        "year": "2018"
       }
     ]
   },
@@ -41,27 +44,32 @@ var topicListData = [
       {
         "name": "OPEN 集團",
         "url": "https://thaubing.gcaa.org.tw",
-        "logo": "images/logos/logo2-1.png"
+        "logo": "images/logos/logo2-1.png",
+        "year": "2017"
       },
       {
         "name": "司法陽光網－判決書 API 計畫",
         "url": "https://sunshine.jrf.org.tw/search",
-        "logo": "images/logos/logo2-2.png"
+        "logo": "images/logos/logo2-2.png",
+        "year": "2017"
       },
       {
         "name": "投票指南 Councillor Voter Guide",
         "url": "https://councils.g0v.tw",
-        "logo": "images/logos/logo2-3.png"
+        "logo": "images/logos/logo2-3.png",
+        "year": "2017"
       },
       {
         "name": "台灣路更平 Flataiwan",
         "url": "https://flataiwan.com",
-        "logo": "images/logos/logo2-4.jpg"
+        "logo": "images/logos/logo2-4.jpg",
+        "year": "2018"
       },
       {
         "name": "台電睦鄰金流大解析 Opentaipower",
         "url": "https://opentaipower.g0v.tw/",
-        "logo": "images/logos/logo2-5.png"
+        "logo": "images/logos/logo2-5.png",
+        "year": "2018"
       }
     ]
   },
@@ -74,32 +82,38 @@ var topicListData = [
       {
         "name": "阿龜微氣候天眼通",
         "url": "https://github.com/Agriweather",
-        "logo": "images/logos/logo3-1.png"
+        "logo": "images/logos/logo3-1.png",
+        "year": "2017"
       },
       {
         "name": "阿龜誌–農務紀錄好幫手",
         "url": "http://agriweather.beehivedt.com/",
-        "logo": "images/logos/logo3-2.png"
+        "logo": "images/logos/logo3-2.png",
+        "year": "2017"
       },
       {
         "name": "美國國會台灣觀測站",
         "url": "https://www.taiwanwatch.org",
-        "logo": "images/logos/logo3-3.png"
+        "logo": "images/logos/logo3-3.png",
+        "year": "2017"
       },
       {
         "name": "國家寶藏",
         "url": "https://nationaltreasure.tw",
-        "logo": "images/logos/logo3-4.png"
+        "logo": "images/logos/logo3-4.png",
+        "year": "2017"
       },
       {
         "name": "智慧辨識花卉圖鑑 AiR",
         "url": "https://plant-tw.github.io",
-        "logo": "images/logos/logo3-5.png"
+        "logo": "images/logos/logo3-5.png",
+        "year": "2018"
       },
       {
         "name": "找台語 ChhoeTaigi",
         "url": "https://chhoe.taigi.info/",
-        "logo": "images/logos/logo3-6.png"
+        "logo": "images/logos/logo3-6.png",
+        "year": "2018"
       }
     ]
   },
@@ -112,17 +126,20 @@ var topicListData = [
       {
         "name": "真的假的 LINE BOT",
         "url": "https://cofacts.g0v.tw/",
-        "logo": "images/logos/logo4-1.png"
+        "logo": "images/logos/logo4-1.png",
+        "year": "2017"
       },
       {
         "name": "好工作評論網 GoodJob",
         "url": "https://www.goodjob.life/",
-        "logo": "images/logos/logo4-2.png"
+        "logo": "images/logos/logo4-2.png",
+        "year": "2017"
       },
       {
         "name": "班表小幫手 Labor Helper",
         "url": "https://tw-shift-schedule.firebaseapp.com/",
-        "logo": "images/logos/logo4-3.png"
+        "logo": "images/logos/logo4-3.png",
+        "year": "2018"
       }
     ]
   },
@@ -135,12 +152,14 @@ var topicListData = [
       {
         "name": "中二網（middle2 開放 PaaS 平台）",
         "url": "https://middle2.com/",
-        "logo": "images/logos/logo5-1.svg"
+        "logo": "images/logos/logo5-1.svg",
+        "year": "2017"
       },
       {
         "name": "g0v 專案中心（YA0H: Yet Another g0v Hub）",
         "url": "https://amb.g0v.tw",
-        "logo": "images/logos/logo5-2.svg"
+        "logo": "images/logos/logo5-2.svg",
+        "year": "2017"
       }
     ]
   }
@@ -177,7 +196,7 @@ class Topics extends Component {
           <a className="flexbox alc pa3-l pa1 bw1 br2 ba b--near-white near-black mv2 w-100 f4-l f5 lh-large" href={topicListData[i].projects[k].url} target="_blank">
             <img src={topicListData[i].projects[k].logo} height="75" alt="logo"/>
             <div className="pa3">
-              <h6 className="o-50 ma0 fw4 tiny">2017</h6>
+              <h6 className="o-50 ma0 fw4 tiny">{topicListData[i].projects[k].year}</h6>
               {topicListData[i].projects[k].name}
             </div>
           </a>
