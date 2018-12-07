@@ -8,7 +8,7 @@ var modalId = "";
 var section =
 {
   "title": "精選獲獎專案",
-  "tagline": "自 2017 年開始，公民科技創新獎助金已陸續為 13 個獲獎團隊帶入實質資源，讓專案得以延續，持續運作。其中更有許多優秀專案，已成功締造實質改變！" ,
+  "tagline": "自 2017 年開始，公民科技創新獎助金已陸續為 19 個獲獎團隊帶入實質資源，讓專案得以延續，持續運作。其中更有許多優秀專案，已成功締造實質改變！" ,
   "insight": "洞察 Insight",
   "idea": "計畫 Idea",
   "impact": "影響力 Impact",
@@ -78,12 +78,12 @@ class Projects extends Component {
   state = {
     open: false,
   };
- 
+
   onOpenModal = (e) => {
     modalId = e.target.dataset.id;
     this.setState({ open: true });
   };
- 
+
   onCloseModal = () => {
     this.setState({ open: false });
   };
@@ -158,7 +158,7 @@ class Projects extends Component {
                 <h3 className="ma0 fw4 mb3 dib"> <span className="o-50">1 • </span>{section.insight}</h3>
                 <p className="fw4 mv2 o-70 mw6 pb4 lh-large">{projectListData[i].insight}</p>
               </div>
-              <div className="content fl w-50-l w-100 ph3">            
+              <div className="content fl w-50-l w-100 ph3">
                 <img className="mb5-l mb4" src={projectListData[i].image[1]} alt={projectListData[i].name}/>
               </div>
             </div>
@@ -243,8 +243,8 @@ class Projects extends Component {
       </div>
     )
   }
-  
-  render() { 
+
+  render() {
     let projectList = [];
     for(var i = 0; i < projectListData.length; i++) {
       projectList.push(this.project(i));
@@ -264,7 +264,7 @@ class Projects extends Component {
               height: 'auto'
           }}
       >
-      <section id="projects" className="fw-100 bg-dark pv6-l pv5"> 
+      <section id="projects" className="fw-100 bg-dark pv6-l pv5">
         <div className="container mw9 w-85 center white">
           <h3 className="ma0 lh-title pb4-l pb3 tc fw5 hideme hidediv tracked">{section.title}</h3>
             <h5 className="ma0 lh-large tc mw7 center fw4 o-70 mb5-l mb4 f4-l f5 hideme hidediv">{section.tagline}</h5>
