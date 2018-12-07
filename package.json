@@ -6,6 +6,7 @@
     "image-promise": "^5.0.1",
     "jquery": "^3.2.1",
     "jquery.animate-number": "0.0.14",
+    "rc-tooltip": "^1.2.0",
     "react": "^16.2.0",
     "react-animated-number": "^0.4.4",
     "react-dom": "^16.2.0",
