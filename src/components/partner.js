@@ -24,21 +24,6 @@ var partnerListData = [
     "image": ["images/partners/logo-yulin.svg"]
   },
   {
-    "name": "Openfind",
-    "description": "Openfind is committed to Internet-related technology R&D, and provide high quality, stable, and scalable software and services.",
-    "image": ["images/partners/logo-openfind.svg"]
-  },
-  {
-    "name": "Weatherrisk",
-    "description": "Weatherrisk is the first private weather company in Taiwan, serving customers at more than 170 companies across media, transportation, manufacturing, logistics, and distributing.",
-    "image": ["images/partners/logo-weather.svg"]
-  },
-  {
-    "name": "Open Culture Foundation",
-    "description": "OCF supports local communities in advocating for the use of open technologies in a broad range of sectors, including open source software, open hardware, and open data.",
-    "image": ["images/partners/logo-ocf.svg"]
-  },
-  {
     "name": "Chunghwa Telecom",
     "description": "Chunghwa Telecom is the largest telecommunications company in Taiwan and the incumbent mobile, PSTN and broadband carrier there.",
     "image": ["images/partners/logo-cht.png"]
@@ -52,8 +37,23 @@ var partnerListData = [
     "name": "EasyCard Corp.",
     "description": "The EasyCard Corporation was officially established in March 2000 and launched a contactless smartcard, they has extended its reach to island-wide public transit, moreover, to people by serving as a tool for small-value payments, as well as used at leisure facilities, hospitals, government agencies and library self-checkout kiosks.",
     "image": ["images/partners/logo-easycard.png"]
-  }
-]
+  },
+  {
+  "name": "Openfind",
+  "description": "Openfind is committed to Internet-related technology R&D, and provide high quality, stable, and scalable software and services.",
+  "image": ["images/partners/logo-openfind.svg"]
+  },
+  {
+  "name": "Weatherrisk",
+  "description": "Weatherrisk is the first private weather company in Taiwan, serving customers at more than 170 companies across media, transportation, manufacturing, logistics, and distributing.",
+  "image": ["images/partners/logo-weather.svg"]
+  },
+  {
+  "name": "Open Culture Foundation",
+  "description": "OCF supports local communities in advocating for the use of open technologies in a broad range of sectors, including open source software, open hardware, and open data.",
+  "image": ["images/partners/logo-ocf.svg"]
+  },
+  ]
 
 class Partner extends Component {
   partner = (i) => {

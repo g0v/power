@@ -26,9 +26,9 @@ class Intro extends Component {
       };
     }
     componentDidMount(){
-     
+
     }
-    
+
     numbers = () => {
       return (
         <div className="center mt4 mw6">
@@ -53,7 +53,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="517"
+              <AnimatedNumber component="text" value="551"
                 stepPrecision = {0}
                 duration={950} />
               </h1><span>{section.number3[1]}</span>
@@ -61,7 +61,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="304"
+              <AnimatedNumber component="text" value="311"
                 stepPrecision = {0}
                 duration={950} />
               </h1><span>{section.number4[1]}</span>
@@ -69,7 +69,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="5000"
+              <AnimatedNumber component="text" value="3000"
                 stepPrecision = {0}
                 duration={1250} />
               {section.number5[1]}</h1>
@@ -83,7 +83,7 @@ class Intro extends Component {
       let num = null;
       if(this.state.num) num = this.numbers();
       var temp = this;
-      $(window).scroll( function(){      
+      $(window).scroll( function(){
         if($('#animatedNumber2').length > 0) {
           var bottom_of_object = $('#animatedNumber2').offset().top + $('#animatedNumber2').outerHeight()/4;
           var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -101,8 +101,8 @@ class Intro extends Component {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
       };
-      return ( 
-        <section id="intro" className="fw-100 bg-primary"> 
+      return (
+        <section id="intro" className="fw-100 bg-primary">
           <div className="container center">
             <div className="cf flexbox">
               <div className="fl intro ma0 pt6-l pt5 ph4 pb5 bg-light-gray">
