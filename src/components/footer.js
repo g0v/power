@@ -8,7 +8,7 @@ var gacode = [
 ].join("\n");
 
 var titles = {
-	"link1": "Grant 官網",
+	"link1": "Grants 官網",
 	"link2": "g0v 官網",
 	"link3": "揪松網",
 	"link4": "收支明細"

@@ -24,21 +24,6 @@ var partnerListData = [
     "image": ["images/partners/logo-yulin.svg"]
   },
   {
-    "name": "Openfind",
-    "description": "長期致力於網際網路相關技術研發，提供高品質、高穩定與高擴充性的軟體與服務。",
-    "image": ["images/partners/logo-openfind.svg"]
-  },
-  {
-    "name": "天氣風險管理開發",
-    "description": "台灣第一家民間氣象公司，服務客戶跨及媒體、運輸、製造、物流、通路等超過 170 家企業。",
-    "image": ["images/partners/logo-weather.svg"]
-  },
-  {
-    "name": "開放文化基金會",
-    "description": "藉由法人組織的力量，協助台灣開放源碼社群的推廣與倡議。",
-    "image": ["images/partners/logo-ocf.svg"]
-  },
-  {
     "name": "中華電信",
     "description": "中華電信公司是國內最大的綜合電信業者，也是國際間電信業者重要合作伙伴，在促進全球化即時訊息溝通、全面提高社會大眾生活品質，以及普遍增強經濟社會運作效率上， 績效卓著。",
     "image": ["images/partners/logo-cht.png"]
@@ -52,6 +37,21 @@ var partnerListData = [
     "name": "悠遊卡公司",
     "description": "悠遊卡公司正式成立於 2000 年 3 月， 非接觸式 IC 智慧卡「悠遊卡」從交通運輸、小額消費、行政規費和風景區門票等，提供民眾在食、衣、住、行各方面便利的支付工具，創造更美好的生活。",
     "image": ["images/partners/logo-easycard.png"]
+  },
+  {
+    "name": "Openfind",
+    "description": "長期致力於網際網路相關技術研發，提供高品質、高穩定與高擴充性的軟體與服務。",
+    "image": ["images/partners/logo-openfind.svg"]
+  },
+  {
+    "name": "天氣風險管理開發",
+    "description": "台灣第一家民間氣象公司，服務客戶跨及媒體、運輸、製造、物流、通路等超過 170 家企業。",
+    "image": ["images/partners/logo-weather.svg"]
+  },
+  {
+    "name": "開放文化基金會",
+    "description": "藉由法人組織的力量，協助台灣開放源碼社群的推廣與倡議。",
+    "image": ["images/partners/logo-ocf.svg"]
   }
 ]
 
