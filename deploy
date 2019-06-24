@@ -12,16 +12,17 @@ rm -rf _public
 git clone git@github.com:g0v/power --depth 1 -b production _public
 cd _public
 git rm -rf *
-cp -R ../build/ ./
+cp -R ../build/* ./
 cd ..
 
 git checkout en
 npm run-script build
 REV_EN=`git describe --always`
-cp -R build _public/en/
+mkdir _public/en/
+cp -R build/* _public/en/
 
 cd _public
-git add * 
+git add *
 git commit -m "regen for zh( $REV_ZH ) and en( $REV_EN )"
 git push
 cd ..
