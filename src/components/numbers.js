@@ -63,9 +63,11 @@ class Numbers extends Component {
           backgroundSize: 'cover'
         };
         divStyleList.push(divStyle);
+      }
+      var bgStyle ={
           backgroundImage: 'url(images/star-transparent.png), url(images/cover/lines.png)',
           backgroundPosition: 'center center, -250px center',
-          backgroundSize: 'cover, 150%'
+          backgroundSize: 'cover, 150%',
       }
 
       return (
