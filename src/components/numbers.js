@@ -9,7 +9,7 @@ var content = [
   },
   {
     "title": "Achievement",
-    "content": "Over the past five years, g0v has looked to conform to the spirit of open data and open government. g0v has hosted more than 29 bi-monthly hackathons, each with over 100 participants. In total, over 5,000 people have participated in g0v events, creating hundreds of civic innovation projects. Today, g0v is one of the globe's top three largest civic hacking/open government advocacy communities. "
+    "content": "Over the past five years, g0v has looked to conform to the spirit of open data and open government. g0v has hosted more than 35 bi-monthly hackathons, each with over 100 participants. In total, over 5,000 people have participated in g0v events, creating hundreds of civic innovation projects. Today, g0v is one of the globe's top three largest civic hacking/open government advocacy communities. "
   },
   {
     "title": "Idea",
@@ -42,7 +42,7 @@ class Numbers extends Component {
         spaceBetween: 0,
         autoplay: 4000,
         onInit: function () {
-          
+
         },
         onSlideChangeStart: function(){
           $('.show').addClass('none');
@@ -53,7 +53,7 @@ class Numbers extends Component {
         }.bind(this)
       });
     }
-    
+
     render() {
       var divStyleList = [];
       for(var i = 0; i < 5; i++) {
@@ -63,14 +63,12 @@ class Numbers extends Component {
           backgroundSize: 'cover'
         };
         divStyleList.push(divStyle);
-      }
-      var bgStyle = {
           backgroundImage: 'url(images/star-transparent.png), url(images/cover/lines.png)',
           backgroundPosition: 'center center, -250px center',
           backgroundSize: 'cover, 150%'
       }
 
-      return ( 
+      return (
          <section id="numbers" className="fw-100 bg-primary relative" style={bgStyle}>
           <div className="container center pv6-ns pv0 relative">
             <div className="pa4 h-330 h-440-s bg-white mw6 hideme hidediv mh6-ns mh0 z1 relative pn">
