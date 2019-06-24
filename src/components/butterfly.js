@@ -20,7 +20,7 @@ var section =
   "number4": ["Funds for Grantee", "M TWD"],
   "imageTitle": "Civic Technology Talents",
   "link": "The Grant Website",
-  "note": "*Statistics by October 2018."
+  "note": "*Statistics by March 2019."
 }
 
 class Butterfly extends Component {
@@ -36,7 +36,7 @@ class Butterfly extends Component {
   numbers = () => {
     return (
       <ul className="ma0 pa0 tc">
-        <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
+        <li className="dib ma2 w46 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6">{section.number1[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
           <AnimatedNumber component="text" value="223"
@@ -44,7 +44,7 @@ class Butterfly extends Component {
             duration={950} />
           </h1><span>{section.number1[1]}</span>
         </li>
-        <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
+        <li className="dib ma2 w46 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6">{section.number2[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
           <AnimatedNumber component="text" value="24"
@@ -52,7 +52,7 @@ class Butterfly extends Component {
             duration={1250} />
           </h1><span>{section.number2[1]}</span>
         </li>
-        <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
+        <li className="dib ma2 w46 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6 ph3 ph1-ns">{section.number3[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
           <AnimatedNumber component="text" value="200"
@@ -60,7 +60,7 @@ class Butterfly extends Component {
             duration={1550} />
           +</h1><span>{section.number3[1]}</span>
         </li>
-        <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
+        <li className="dib ma2 w46 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6 ph3 ph1-ns">{section.number4[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
           <AnimatedNumber component="text" value="1123"
