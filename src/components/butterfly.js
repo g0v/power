@@ -20,7 +20,7 @@ var section =
   "number4": ["已發放獎金", "萬元"],
   "imageTitle": "創意、公民科技人才",
   "link": "瀏覽獎助金官方網站",
-  "note": "*此數字統計截止至 2018 年 10 月份。"
+  "note": "*此數字統計截止至 2019 年 3 月份。"
 }
 
 class Butterfly extends Component {
@@ -31,7 +31,7 @@ class Butterfly extends Component {
     };
   }
   componentDidMount = () => {
-    
+
   }
   numbers = () => {
     return (
@@ -39,7 +39,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc tracked f5-ns f6">{section.number1[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="184"
+          <AnimatedNumber component="text" value="223"
             stepPrecision = {0}
             duration={950} />
           </h1><span>{section.number1[1]}</span>
@@ -47,7 +47,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc tracked f5-ns f6">{section.number2[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="19"
+          <AnimatedNumber component="text" value="24"
             stepPrecision = {0}
             duration={1250} />
           </h1><span>{section.number2[1]}</span>
@@ -55,7 +55,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc tracked f5-ns f6">{section.number3[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="50"
+          <AnimatedNumber component="text" value="200"
             stepPrecision = {0}
             duration={1550} />
           +</h1><span>{section.number3[1]}</span>
@@ -63,7 +63,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc tracked f5-ns f6">{section.number4[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="881"
+          <AnimatedNumber component="text" value="1123"
             stepPrecision = {0}
             duration={1850} />
           </h1><span>{section.number4[1]}</span>
@@ -75,7 +75,7 @@ class Butterfly extends Component {
     let num = null;
     if(this.state.num) num = this.numbers();
     var temp = this;
-    $(window).scroll( function(){      
+    $(window).scroll( function(){
       if($('#animatedNumber1').length > 0) {
         var bottom_of_object = $('#animatedNumber1').offset().top + $('#animatedNumber1').outerHeight()/4;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -94,8 +94,8 @@ class Butterfly extends Component {
       backgroundRepeat: 'no-repeat, no-repeat'
     };
 
-    return ( 
-      <section id="butterfly" className="fw-100"> 
+    return (
+      <section id="butterfly" className="fw-100">
         <div className="ma0 pv5 ph4 tc-ns tl bg-white">
           <div className="hideme hidediv">
           <h1 className="ma0 lh-title pb3 fw7 tracked f2-l f3">{section.title}</h1>

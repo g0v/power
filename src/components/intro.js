@@ -7,7 +7,7 @@ var view = false;
 var section =
 {
   "title": "什麼是 g0v ？",
-  "numbers": "從 2012 到 2018， g0v 創造了…",
+  "numbers": "從 2012 到 2019， g0v 創造了…",
   "content": "g0v.tw 是一個推動資訊透明化的社群，以開放原始碼的精神為基底，致力於開發公民參與社會的資訊平台與工具。將 gov 以「零」替代成為 g0v，從零重新思考政府的角色，也是代表數位原生世代從 0 與 1 世界的視野。",
   "number1": ["黑客松","次"],
   "number2": ["國際雙年會","次"],
@@ -35,7 +35,7 @@ class Intro extends Component {
           <ul className="ma0 pa0 tc">
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="32"
+              <AnimatedNumber component="text" value="35"
                 stepPrecision = {0}
                 duration={650} />
               </h1><span>{section.number1[1]}</span>
@@ -53,7 +53,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="551"
+              <AnimatedNumber component="text" value="586"
                 stepPrecision = {0}
                 duration={950} />
               </h1><span>{section.number3[1]}</span>
@@ -61,7 +61,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="311"
+              <AnimatedNumber component="text" value="334"
                 stepPrecision = {0}
                 duration={950} />
               </h1><span>{section.number4[1]}</span>

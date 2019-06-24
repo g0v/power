@@ -4,7 +4,7 @@ import $ from 'jquery';
 
 var section =
 {
-  "title": "從 2012 到 2018， g0v 創造了…",
+  "title": "從 2012 到 2019， g0v 創造了…",
   "powerby": "揪松團在獎助金網站介紹徵件辦法、合作夥伴與獲獎專案一覽，獲獎專案網站或其他形式服務須至少在持續營運一年內註明 Powered by g0v，並連結回「Powered by g0v」頁面。"
 }
 
@@ -48,7 +48,7 @@ class Numbers extends Component {
         spaceBetween: 0,
         autoplay: 4000,
         onInit: function () {
-          
+
         },
         onSlideChangeStart: function(){
           $('.show').addClass('none');
@@ -59,7 +59,7 @@ class Numbers extends Component {
         }.bind(this)
       });
     }
-    
+
     render() {
       var divStyleList = [];
       for(var i = 0; i < 5; i++) {
@@ -76,7 +76,7 @@ class Numbers extends Component {
           backgroundSize: 'cover, 150%'
       }
 
-      return ( 
+      return (
          <section id="numbers" className="fw-100 bg-primary relative" style={bgStyle}>
           <div className="container center pv6-ns pv0 relative">
             <div className="pa4 h-250 h-300-s bg-white mw6 hideme hidediv mh6-ns mh0 z1 relative pn">
