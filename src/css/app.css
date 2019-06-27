@@ -153,7 +153,7 @@ a {
 	min-height: 360px;
 }
 .h-480 {
-	height: 480px;	
+	height: 480px;
 }
 .mh-600 {
 	min-height: 600px;
@@ -173,11 +173,11 @@ a {
 @media screen and (min-width: 769px) {
 	.h-480-ns {
 		height: 480px;
-	}	
+	}
 }
 @media screen and (max-width: 500px) {
 	.h-300-s {
-		height: 300px;	
+		height: 300px;
 	}
 }
 
@@ -224,7 +224,7 @@ a {
 		color: #fff;
 	}
 	.btn-hover-black:hover {
-		color: #000;	
+		color: #000;
 	}
 }
 
@@ -236,7 +236,7 @@ a {
 	color: #001C2F;
 }
 .dark-black {
-	color: #1b1b1c;	
+	color: #1b1b1c;
 }
 .bg-dark {
 	background-color: #001C2F;
@@ -315,7 +315,7 @@ a {
 	width: calc(33.33% - 2rem - 1px);
 }
 .flexbox .judges {
-	width: calc(33.33% - 2rem - 1px);
+	width: 350px;
         white-space: pre-wrap;
         text-align: left;
 }
@@ -340,7 +340,7 @@ a {
 	width: calc(50% - 2rem - 1px);
 }
 .flexbox .content {
-	width: calc(50% - 1px);	
+	width: calc(50% - 1px);
 }
 .jcc {
 	justify-content: center;
@@ -354,7 +354,7 @@ a {
 		width: 100%;
 	}
 	.flexbox .project {
-		width: calc(100% - 2rem);	
+		width: calc(100% - 2rem);
 	}
 	.flexbox .intro {
 		width: 100%;
@@ -477,19 +477,19 @@ a {
 }
 
 .delay-0 {
-	transition: all .35s ease-in-out;	
+	transition: all .35s ease-in-out;
 }
 .delay-1 {
-	transition: all .35s ease-in-out .2s;	
+	transition: all .35s ease-in-out .2s;
 }
 .delay-2 {
-	transition: all .35s ease-in-out .4s;	
+	transition: all .35s ease-in-out .4s;
 }
 .delay-3 {
-	transition: all .35s ease-in-out .6s;	
+	transition: all .35s ease-in-out .6s;
 }
 .delay-4 {
-	transition: all .35s ease-in-out .8s;	
+	transition: all .35s ease-in-out .8s;
 }
 
 .hideme {
@@ -763,13 +763,13 @@ a {
  {
 	opacity: 0;
 	transform: translateY(5px);
-	transition: all .2s cubic-bezier(0.23, 1, 0.32, 1);	
+	transition: all .2s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .show,
 .show2 {
 	opacity: 1;
 	transform: translateY(0px);
-	transition: all .2s cubic-bezier(0.23, 1, 0.32, 1);	
+	transition: all .2s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .bt-orange-small {
@@ -879,7 +879,7 @@ a {
 	animation: moving1 8s infinite linear;
 }
 .cover-bg .parallax-banner-layer-2 {
-	animation: moving2 8s infinite linear;	
+	animation: moving2 8s infinite linear;
 }
 @keyframes moving1 {
   0%   { transform: translate(162.5vw, -100vw); }
@@ -981,7 +981,7 @@ a {
 	transform: translate(-7px,-67px);
 }
 #b2 {
-	width: 93px; 
+	width: 93px;
 	animation: fly .6s infinite ease-in-out;
 }
 @keyframes fly {
