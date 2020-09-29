@@ -7,7 +7,7 @@ var view = false;
 var section =
 {
   "title": "What is g0v?",
-  "numbers": "From 2012 to 2019, g0v creates...",
+  "numbers": "From 2012 to 2020, g0v creates...",
   "content": "g0v.tw is an online community that pushes for greater data transparency, and is focused on developing new platforms and tools that help citizens participate in civil society. By substituting the “o” with “0″ in the word “gov”, the new “g0v” not only stands for rethinking the role that government plays from the bottom up, but also represents the way the digital natives generation views the world, in “0s” and “1s.” ",
   "number1": ["Hackathons",""],
   "number2": ["International Summits",""],
@@ -15,7 +15,7 @@ var section =
   "number4": ["Kenzu",""],
   "number5": ["Contributors","+"],
   "link1": "Let's Hack! >>",
-  "link2": "g0v Summit 2018 >>"
+  "link2": "g0v Summit 2020 >>"
 }
 
 class Intro extends Component {
@@ -35,7 +35,7 @@ class Intro extends Component {
           <ul className="ma0 pa0 tc">
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="35"
+              <AnimatedNumber component="text" value="41"
                 stepPrecision = {0}
                 duration={650} />
               </h1><span>{section.number1[1]}</span>
@@ -44,7 +44,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="3"
+              <AnimatedNumber component="text" value="4"
                 stepPrecision = {0}
                 duration={650} />
               </h1><span>{section.number2[1]}</span>
@@ -53,7 +53,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="586"
+              <AnimatedNumber component="text" value="684"
                 stepPrecision = {0}
                 duration={950} />
               </h1><span>{section.number3[1]}</span>
@@ -61,7 +61,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv mb5">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="334"
+              <AnimatedNumber component="text" value="402"
                 stepPrecision = {0}
                 duration={950} />
               </h1><span>{section.number4[1]}</span>
@@ -69,7 +69,7 @@ class Intro extends Component {
             </li>
             <li className="dib center w-50 tc white ph3 hideme hidediv">
               <h1 className="big ma0 tc di pr1 fw2">
-              <AnimatedNumber component="text" value="3000"
+              <AnimatedNumber component="text" value="8000"
                 stepPrecision = {0}
                 duration={1250} />
               {section.number5[1]}</h1>

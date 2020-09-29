@@ -39,7 +39,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6">{section.number1[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="223"
+          <AnimatedNumber component="text" value="272"
             stepPrecision = {0}
             duration={950} />
           </h1><span>{section.number1[1]}</span>
@@ -47,7 +47,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6">{section.number2[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="24"
+          <AnimatedNumber component="text" value="29"
             stepPrecision = {0}
             duration={1250} />
           </h1><span>{section.number2[1]}</span>
@@ -55,7 +55,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6 ph3 ph1-ns">{section.number3[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="200"
+          <AnimatedNumber component="text" value="250"
             stepPrecision = {0}
             duration={1550} />
           +</h1><span>{section.number3[1]}</span>
@@ -63,7 +63,7 @@ class Butterfly extends Component {
         <li className="dib ma2 w45 tc bg-white pv4-ns pv3 hideme hidediv">
           <h5 className="ma0 tc f5-ns f6 ph3 ph1-ns">{section.number4[0]}</h5>
           <h1 className="ma0 tc di pr1 f1-ns f2">
-          <AnimatedNumber component="text" value="347"
+          <AnimatedNumber component="text" value="1365"
             stepPrecision = {0}
             duration={1850} />
           </h1><span>{section.number4[1]}</span>
