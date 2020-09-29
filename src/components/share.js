@@ -15,7 +15,7 @@ var shareListData = [
     "name": "報名黑客松",
     "description": "想找地方揮灑熱血嗎？揪松網歡迎你！",
     "action": "瞭解更多",
-    "url": "https://hack.g0v.tw/"
+    "url": "https://jothon.g0v.tw/"
   },
   {
     "name": "贊助獎助金",
@@ -25,9 +25,9 @@ var shareListData = [
   },
   {
     "name": "下載最新年鑑",
-    "description": "最新 2018 獎助金年鑑，歡迎取用！",
+    "description": "最新 2019 獎助金年鑑，歡迎取用！",
     "action": "馬上下載",
-    "url": "https://drive.google.com/file/d/1mV89GPIm7wSNci1gkeF_idy1odS4E5UD/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1Pixs6laq3b1Rti226E4jWjoKv4lZpzdu/view?usp=sharing"
   }
 ]
 
@@ -69,7 +69,7 @@ class Share extends Component {
     }
     return (
       <div>
-        <section id="share" className="fw-100 bg-white pt5"> 
+        <section id="share" className="fw-100 bg-white pt5">
           <h3 className="ma0 lh-title pb4-l pb3 tc fw5 hideme hidediv tracked">{section.title}</h3>
           <h5 className="ma0 lh-copy tc mw7 center fw4 f4-l f5 o-70 mb4 hideme hidediv">{section.tagline}</h5>
           <div className="cf flexbox">
@@ -105,5 +105,3 @@ class Share extends Component {
 }
 
 export default Share;
-
-        

@@ -32,6 +32,18 @@ var topicListData = [
         "url": "https://homeless-helper.doyouaflavor.tw/",
         "logo": "images/logos/logo1-3.png",
         "year": "2018"
+      },
+      {
+        "name": "台灣神手開源義肢",
+        "url": "https://sites.google.com/view/twgodhand",
+        "logo": "images/logos/logo1-4.jpg",
+        "year": "2019"
+      },
+      {
+        "name": "農業災損幾多錢",
+        "url": "http://uav-fly.nchu.edu.tw/g0vAna/",
+        "logo": "images/logos/logo1-5.png",
+        "year": "2019"
       }
     ]
   },
@@ -70,6 +82,18 @@ var topicListData = [
         "url": "https://opentaipower.g0v.tw/",
         "logo": "images/logos/logo2-5.png",
         "year": "2018"
+      },
+      {
+        "name": "金流百科",
+        "url": "https://g0v-money-flow.github.io/",
+        "logo": "images/logos/logo2-6.jpg",
+        "year": "2019"
+      },
+      {
+        "name": "資料申請小幫手",
+        "url": "https://dataopener.tw/",
+        "logo": "images/logos/logo2-7.png",
+        "year": "2019"
       }
     ]
   },
@@ -140,6 +164,12 @@ var topicListData = [
         "url": "https://tw-shift-schedule.firebaseapp.com/",
         "logo": "images/logos/logo4-3.png",
         "year": "2018"
+      },
+      {
+        "name": "大河小溪全民齊督工",
+        "url": "https://river-watcher.bambooculture.tw/",
+        "logo": "images/logos/logo4-4.png",
+        "year": "2019"
       }
     ]
   },
@@ -263,7 +293,7 @@ class Topics extends Component {
     return topicSlide;
   }
 
-  render() { 
+  render() {
     return (
     <ParallaxBanner
           className="fw-100"
@@ -278,7 +308,7 @@ class Topics extends Component {
               height: 'auto'
           }}
       >
-      <section id="topics" className="fw-100 bg-white pv6-l pv5"> 
+      <section id="topics" className="fw-100 bg-white pv6-l pv5">
         <div className="container mw9 w-85 center">
           <h3 className="ma0 lh-title pb4-l pb5 tc fw5 hideme hidediv tracked">{section.title}</h3>
           <div id="swiperTopic-container" className="swiper-container center relative">

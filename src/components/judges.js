@@ -108,6 +108,30 @@ var judgeListData = [
     "description": "程希瑾是矽谷知名種子基金暨創業育成加速器 500 Startups 的在台 Venture Partner。500 Startups 是由前 Paypal 及 Google 等矽谷知名公司的員工所創立，其種子基金投資遍及全球的社群、搜尋、行動等的網路應用及服務。程小姐自 2014 年加入 500 Startups，協助其台灣的投資項目管理及新事業開發。\n\n在加入 500 Startups 之前，程小姐自 2004 年起共同創辦了三家公司，2004 年她成立了隨想行動科技，開發行動股市看盤下單系統，在台灣證券市場俱有極高的市佔率，後為精誠購併。2008年成立社群遊戲公司嘎姆擂台（Gamelet）。2012 年時成立 Cubie Messenger，是一款以傳輸多媒體訊息為主的行動聊天軟體，在全球逾千萬下載。",
     "image": ["images/judges/cjin.jpg"]
   },
+  {
+    "name": "黃雋",
+    "title": "網絡行動科技 共同創辦人",
+    "description": "專注於經營社會企業、服務 NPO 建置網站專案、為 NPO 導入 CRM 計畫將近十年。相信 NPO 是改變社會的重要環節，需要更多人關注與提供合作與服務，希望開放透明的 g0v Grants 專案亦可為此創造更多可能。",
+    "image": ["images/judges/jimmyhuang.jpg"]
+  },
+  {
+    "name": "林以涵",
+    "title": "社企流 共同創辦人暨執行長",
+    "description": "政治大學公共行政學士、美國德州奧斯丁大學公共事務碩士。2012 年創辦「社企流」，期望透過華文串連社會創新創業的資訊與資源，健全生態圈發展。",
+    "image": ["images/judges/linyihan.jpg"]
+  },
+  {
+    "name": "吳宜珮",
+    "title": "台灣創意設計中心專案總監、美國創新中心顧問",
+    "description": "2013 年起引進設置 RedDot 紅點設計博物館、美國創新中心，並於台灣推動辦理首次「魚客松 Fishackathon」及「NASA 黑客松」，擔任 2016 臺北世界設計之都副執行長，代表領取 2017 年 DMI 設計創新獎，長年推動國際合作、設計創新、服務設計、設計導入公共政策等工作。",
+    "image": ["images/judges/wuyipei.jpg"]
+  },
+  {
+    "name": "黃瑞茂",
+    "title": "淡江大學建築學系 專任副教授",
+    "description": "淡水社區工作室主持人、專業者都市改革組織（OURs）常務理事。長期關注臺灣社會轉變過程中，都市空間所面對的種種面向的議題，1993 年成立「淡水社區工作室」參與真實的環境改造工作，特別在歷史城鎮淡水地區從事多年的在地工作。",
+    "image": ["images/judges/huangmao.jpg"]
+  }
 ]
 
 class Judges extends Component {
